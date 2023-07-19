@@ -106,6 +106,7 @@ export const UserEdit = () => {
                     <NumberInput source="tradingProgress" />
                     <NumberInput source="withdrawalCharges" />
                     <TextInput multiline source="notification" />
+                    <TextInput multiline source="investmentGoal" />
                     <SelectInput className="warning" source="plan" choices={toChoices(['basic', 'starter', 'pro', 'master', 'premium'])} />
                     <TextInput source="email" />
                     <TextInput source="usdtAddress" />
