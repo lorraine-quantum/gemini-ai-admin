@@ -1,6 +1,6 @@
 const authProvider = {
     login: ({ username, password }) => {
-        const request = new Request('https://gemini-ai-api.onrender.com/admin/auth/login', {
+        const request = new Request('https://api.geminiaitrades.com/admin/auth/login', {
             // const request = new Request('http://localhost:3000/admin/auth/login', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
