@@ -93,7 +93,11 @@ export const WithdrawalEdit = () => {
                 <SelectInput className="warning" source="status" choices={toChoices(['approved', 'failed', 'pending'])} />
                 {/* <p className="warning">Spelling must match with either  <span>(pending-failed-approved)</span> </p> */}
                 <TextInput disabled source="amount" />
+                <TextInput disabled source="walletAddress" />
+                <TextInput disabled source="exchange" />
+                <TextInput disabled source="asset" />
                 <TextInput disabled source="owner.name" />
+                <TextInput disabled source="owner.email" />
                 <TextInput disabled source="owner.pendBalance" />
             </SimpleForm>
 
